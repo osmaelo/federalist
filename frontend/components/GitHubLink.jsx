@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { IconGitHub } from './icons';
+import { IconGitHub, IconGitHubCommit } from './icons';
 
 const BASE = 'https://github.com';
 
@@ -27,7 +27,7 @@ const GitHubLink = ({ owner, repository, text, branch, sha, ...props }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {text}<IconGitHub />
+      {text}{ sha ? <IconGitHubCommit /> : <IconGitHub /> }
     </a>
   );
 };

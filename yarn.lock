@@ -5270,6 +5270,12 @@ object.values@^1.0.3:
     function-bind "^1.1.0"
     has "^1.0.1"
 
+octicons@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-7.2.0.tgz#a721635f73c774d7ffda56a83a29dbde03fc4b53"
+  dependencies:
+    object-assign "^4.1.1"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
